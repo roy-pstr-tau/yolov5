@@ -1,0 +1,15 @@
+# Toy Bus dataset - six colors, 60 images.
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /toybus
+#     /yolov5
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: toybus/images/train/  # 60 images
+val: toybus/images/train/  # 60 images
+
+# number of classes
+nc: 6
+
+# class names
+names: ['green_bus','yellow_bus','white_bus','gray_bus','blue_bus','red_bus=6']
