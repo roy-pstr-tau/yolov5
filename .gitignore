@@ -30,6 +30,7 @@ data/*
 !data/images/bus.jpg
 !data/coco.names
 !data/toybus.yaml
+!data/toybus_single.yaml
 !data/coco_paper.names
 !data/coco.data
 !data/coco_*.data
