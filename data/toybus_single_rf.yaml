@@ -1,0 +1,15 @@
+# Toy Bus dataset - six colors, 60 images.
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /toybus
+#     /yolov5
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /content/drive/MyDrive/cv_project/toybus/roboflow/images/train  # 700 images
+val: /content/drive/MyDrive/cv_project/toybus/roboflow/images/val  # 180 images
+
+# number of classes
+nc: 1
+
+# class names
+names: ['bus']

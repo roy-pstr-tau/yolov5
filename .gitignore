@@ -31,6 +31,7 @@ data/*
 !data/coco.names
 !data/toybus.yaml
 !data/toybus_single.yaml
+!data/toybus_single_rf.yaml
 !data/coco_paper.names
 !data/coco.data
 !data/coco_*.data
